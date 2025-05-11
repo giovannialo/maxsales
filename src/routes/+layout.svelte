@@ -6,7 +6,7 @@
 </script>
 
 <div class="flex min-h-full flex-col">
-	<nav class="flex h-16 shrink-0 items-center justify-center gap-x-4">
+	<nav class="flex h-16 shrink-0 items-center justify-center gap-x-4 border-b border-zinc-200">
 		<a href="/" class="font-semibold" aria-current={page.url.pathname === '/'}>Home</a>
 		<a href="/about" class="font-semibold" aria-current={page.url.pathname === '/about'}>About</a>
 	</nav>

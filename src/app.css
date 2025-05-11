@@ -1,3 +1,9 @@
+@import url('https://rsms.me/inter/inter.css');
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	--font-sans: InterVariable, system-ui, sans-serif;
+	--font-sans--font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}

@@ -1,5 +1,3 @@
-import { PUBLIC_API_STATIC, PUBLIC_API_URL } from '$env/static/public';
-
 interface CustomFetchOptions extends Omit<RequestInit, 'body'> {
 	body?: Partial<Record<string, any>>;
 	params?: Record<string, string>;
@@ -10,7 +8,7 @@ interface CustomFetchOptions extends Omit<RequestInit, 'body'> {
 export const apiRequest = {
 	get: async (endpoint: string, options?: CustomFetchOptions): Promise<Response> => {
 		const fetchFunction = options?.fetch || fetch;
-		const url = new URL(`${PUBLIC_API_URL}${endpoint}${PUBLIC_API_STATIC === '1' ? '.json' : ''}`);
+		const url = new URL(endpoint);
 
 		if (options?.params) {
 			Object.keys(options.params).forEach((key) => {
@@ -30,7 +28,7 @@ export const apiRequest = {
 
 	post: async (endpoint: string, options?: CustomFetchOptions): Promise<Response> => {
 		const fetchFunction = options?.fetch || fetch;
-		return await fetchFunction(`${PUBLIC_API_URL}${endpoint}`, {
+		return await fetchFunction(endpoint, {
 			method: 'POST',
 			headers: {
 				Accept: 'application/json',

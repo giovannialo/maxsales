@@ -9,6 +9,11 @@
 	<nav class="flex h-16 shrink-0 items-center justify-center gap-x-4 border-b border-zinc-200">
 		<a href="/" class="font-semibold" aria-current={page.url.pathname === '/'}>Home</a>
 		<a href="/about" class="font-semibold" aria-current={page.url.pathname === '/about'}>About</a>
+		<a
+			href="/products"
+			class="font-semibold"
+			aria-current={page.url.pathname.startsWith('/products')}>Products</a
+		>
 	</nav>
 
 	<div class="mx-auto flex w-full max-w-7xl flex-1 flex-col p-4 sm:p-6 lg:p-8">

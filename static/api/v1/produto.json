@@ -1,0 +1,309 @@
+{
+	"pageSize": 50,
+	"maxPageSize": 200,
+	"currentPage": 1,
+	"totalPages": 162,
+	"totalItens": 8083,
+	"data": [
+		{
+			"idProduto": 30941,
+			"codProd": "AG00001",
+			"descricao": "Agramix Base 1 (gr)",
+			"unidade": "Pc."
+		},
+		{
+			"idProduto": 30942,
+			"codProd": "AG00002",
+			"descricao": "Agramix Base 1 (gr) - Big Bag 1.000Kg",
+			"unidade": "PÇS"
+		},
+		{
+			"idProduto": 30943,
+			"codProd": "AG00003",
+			"descricao": "Agramix Base 1 (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30944,
+			"codProd": "AG00004",
+			"descricao": "Agramix Base 2 (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30945,
+			"codProd": "AG00005",
+			"descricao": "Agramix Base 2 (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30946,
+			"codProd": "AG00006",
+			"descricao": "Agramix Base 2 (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30947,
+			"codProd": "AG00007",
+			"descricao": "Agramix Beck 27 (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30948,
+			"codProd": "AG00008",
+			"descricao": "Agramix Beck 27 (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30949,
+			"codProd": "AG00009",
+			"descricao": "Agramix Beck 27 (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30950,
+			"codProd": "AG00010",
+			"descricao": "Agramix Boro 10 (farelado)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30951,
+			"codProd": "AG00011",
+			"descricao": "Agramix Boro 10 (farelado) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30952,
+			"codProd": "AG00012",
+			"descricao": "Agramix Boro 10 (farelado) - Saco 40Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30953,
+			"codProd": "AG00013",
+			"descricao": "Agramix Boro 10 (farelado) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30954,
+			"codProd": "AG00014",
+			"descricao": "Agramix Boro 10 (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30955,
+			"codProd": "AG00015",
+			"descricao": "Agramix Boro 10 (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30956,
+			"codProd": "AG00016",
+			"descricao": "Agramix Boro 10 (gr) - Big Bag 750Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30957,
+			"codProd": "AG00017",
+			"descricao": "Agramix Boro 10 (gr) - Big Bag 950Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30958,
+			"codProd": "AG00018",
+			"descricao": "Agramix Boro 10 (gr) - Saco 40Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30959,
+			"codProd": "AG00019",
+			"descricao": "Agramix Boro 10 (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30960,
+			"codProd": "AG00020",
+			"descricao": "Agramix Boro 4 (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30961,
+			"codProd": "AG00021",
+			"descricao": "Agramix Boro 4 (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30962,
+			"codProd": "AG00022",
+			"descricao": "Agramix Boro 6 (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30963,
+			"codProd": "AG00023",
+			"descricao": "Agramix Boro 6 (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30964,
+			"codProd": "AG00024",
+			"descricao": "Agramix Br 12 (farelado)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30965,
+			"codProd": "AG00025",
+			"descricao": "Agramix Br 12 (farelado) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30966,
+			"codProd": "AG00026",
+			"descricao": "Agramix Br 12 (farelado) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30967,
+			"codProd": "AG00027",
+			"descricao": "Agramix Br 12 (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30968,
+			"codProd": "AG00028",
+			"descricao": "Agramix Br 12 (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30969,
+			"codProd": "AG00029",
+			"descricao": "Agramix Br 12 (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30970,
+			"codProd": "AG00030",
+			"descricao": "Agramix Br 12 R (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30971,
+			"codProd": "AG00031",
+			"descricao": "Agramix Br 12 R (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30972,
+			"codProd": "AG00032",
+			"descricao": "Agramix Br 12 R (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30973,
+			"codProd": "AG00033",
+			"descricao": "Agramix BR 12 reduzido (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30974,
+			"codProd": "AG00034",
+			"descricao": "Agramix BR 12 reduzido (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30975,
+			"codProd": "AG00035",
+			"descricao": "Agramix BR 12 reduzido (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30976,
+			"codProd": "AG00036",
+			"descricao": "Agramix Centro Oeste (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30977,
+			"codProd": "AG00037",
+			"descricao": "Agramix Centro Oeste (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30978,
+			"codProd": "AG00038",
+			"descricao": "Agramix Centro Oeste (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30979,
+			"codProd": "AG00039",
+			"descricao": "Agramix Centro Oeste (pó)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30980,
+			"codProd": "AG00040",
+			"descricao": "Agramix Centro Oeste (pó) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30981,
+			"codProd": "AG00041",
+			"descricao": "Agramix Centro Oeste (pó) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30982,
+			"codProd": "AG00042",
+			"descricao": "Agramix Centro Oeste Red. (new) (gr)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30983,
+			"codProd": "AG00043",
+			"descricao": "Agramix Centro Oeste Red. (new) (gr) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30984,
+			"codProd": "AG00044",
+			"descricao": "Agramix Centro Oeste Red. (new) (gr) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30985,
+			"codProd": "AG00045",
+			"descricao": "Agramix Centro Oeste Red. (new) (pó)",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30986,
+			"codProd": "AG00046",
+			"descricao": "Agramix Centro Oeste Red. (new) (pó) - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30987,
+			"codProd": "AG00047",
+			"descricao": "Agramix Centro Oeste Red. (new) (pó) - Saco 50Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30988,
+			"codProd": "AG00048",
+			"descricao": "Agramix CopperZinc+B",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30989,
+			"codProd": "AG00049",
+			"descricao": "Agramix CopperZinc+B - Big Bag 1.000Kg",
+			"unidade": "TON"
+		},
+		{
+			"idProduto": 30990,
+			"codProd": "AG00050",
+			"descricao": "Agramix CopperZinc+B - Big Bag 500Kg",
+			"unidade": "TON"
+		}
+	]
+}

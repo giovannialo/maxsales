@@ -36,8 +36,7 @@ export default defineConfig({
 				globPatterns: [
 					'client/**/*.{js,css,ico,png,svg,webp,woff,woff2}',
 					'prerendered/**/*.{html,json}'
-				],
-				navigateFallback: '/'
+				]
 			},
 			devOptions: {
 				enabled: true,

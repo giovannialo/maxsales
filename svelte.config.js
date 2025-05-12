@@ -14,7 +14,9 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: '/'
+			fallback: '/index.html',
+			precompress: false,
+			strict: true
 		}),
 		serviceWorker: {
 			register: false

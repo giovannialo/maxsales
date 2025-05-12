@@ -14,7 +14,7 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: '/'
+			fallback: '404.html'
 		}),
 		serviceWorker: {
 			register: false

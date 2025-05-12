@@ -53,5 +53,12 @@
 				}
 			]
 		}
+	],
+	"rewrites": [
+		{
+			"source": "/(.*)",
+			"has": [{ "type": "missing", "value": "/404.html" }],
+			"destination": "/404.html"
+		}
 	]
 }

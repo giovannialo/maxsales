@@ -1,9 +1,23 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import { pwaAssetsHead } from 'virtual:pwa-assets/head';
+	import { pwaInfo } from 'virtual:pwa-info';
 	import '../app.css';
 
 	let { children } = $props();
+
+	const webManifest = $derived(pwaInfo ? pwaInfo.webManifest.linkTag : '');
 </script>
+
+<svelte:head>
+	{#if pwaAssetsHead.themeColor}
+		<meta name="theme-color" content={pwaAssetsHead.themeColor.content} />
+	{/if}
+	{#each pwaAssetsHead.links as link}
+		<link {...link} />
+	{/each}
+	{@html webManifest}
+</svelte:head>
 
 <div class="flex min-h-full flex-col">
 	<nav class="flex h-16 shrink-0 items-center justify-center gap-x-4 border-b border-zinc-200">
@@ -20,6 +34,10 @@
 		{@render children()}
 	</div>
 </div>
+
+{#await import('$lib/components/ui/ReloadPrompt.svelte') then { default: ReloadPrompt }}
+	<ReloadPrompt />
+{/await}
 
 <style>
 	[aria-current='true'] {

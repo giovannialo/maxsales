@@ -62,6 +62,6 @@
 	</div>
 {/if}
 
-<div class="invisible">
+<div class="sr-only">
 	{buildDate}
 </div>

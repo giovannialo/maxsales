@@ -33,7 +33,10 @@ export default defineConfig({
 				theme_color: '#09090B'
 			},
 			workbox: {
-				globPatterns: ['client/**/*.{js,css,ico,png,svg,webp,woff,woff2}']
+				globPatterns: [
+					'client/**/*.{js,css,ico,png,svg,webp,woff,woff2}',
+					'prerendered/**/*.{html,json}'
+				]
 			},
 			devOptions: {
 				enabled: true,

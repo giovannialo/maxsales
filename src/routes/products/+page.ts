@@ -4,7 +4,7 @@ import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ fetch }) => {
-	const response = await apiRequest.get('/v1/produto', {
+	const response = await apiRequest.get('/api/v1/products.json', {
 		fetch,
 		headers: {
 			Accept: 'application/json'

@@ -3,6 +3,8 @@ import type { APIProductsResponse } from '$lib/interfaces';
 import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
 
+export const prerender = true;
+
 export const load: PageLoad = async ({ fetch, params }) => {
 	const id = parseInt(params.id);
 
